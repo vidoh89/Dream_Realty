@@ -27,7 +27,7 @@ function FeaturedProperties() {
   
   return (
     <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative">
-      <h1 className="slider_header mt-10 mx-auto text-2xl text-center">Featured Properties</h1>
+      <h1 className="slider_header mt-0 mx-auto text-2xl text-center">Featured Properties</h1>
       <div className="">
         <ImageSlider slides={slides}/>
       </div>

@@ -21,23 +21,26 @@ const ImageSlider = ({ slides }) => {
   setCurrentIndex(slideIndex)
  }
   return (
-    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group">
+    // Image slide container.Conatains styles for image slider.
+    <div className="max-w-[1800px] h-[780px] w-full mx-auto py-16 px-0 sm:px-4 relative group">
+      {/* container for image settings.Controls image slides size and style */}
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className=" w-full h-full rounded-2xl bg-center bg-cover duration-500"
+        className=" w-full h-full rounded-2xl bg-center bg-cover  ease-in-out duration-500"
       ></div>
-      <div className=" left_arrow hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5">
+      {/* div for left arrow style */}
+      <div className=" left_arrow hidden sm:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5">
         <FaArrowAltCircleLeft size={30} className="left_arrow" onClick={prevSlide}/>
       </div>
-
-      <div className="right_arrow hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 ">
+      {/* div for right arrow style */}
+      <div className="right_arrow hidden sm:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 ">
         <FaArrowAltCircleRight size={30} className="right_arrow" onClick={nextSlide}/>
       </div>
       <div className="flex top-4 justify-center py-2">
       {slides.map((slide,slideIndex) =>(
         <div key={slideIndex} 
         onClick={()=> goToSlide(slideIndex)} 
-        className='text-2xl cursor-pointer'>
+        className='text-2xl cursor-pointer sm:hidden'>
         <RxDotFilled />
         </div>
       ))}
