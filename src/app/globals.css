@@ -73,6 +73,7 @@ transition: all .3s ease-in-out;
 .divider_div{
   border: .1rem solid #5FAD09;
   margin:.1rem;
+  margin-top: 1rem;
 }
 .span-properties{
   text-shadow: 0 0 5px whitesmoke ;
