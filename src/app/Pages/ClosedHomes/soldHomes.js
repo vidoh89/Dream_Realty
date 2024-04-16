@@ -1,11 +1,13 @@
 import React from 'react'
 
-const soldHomes = (hits) => {
+const SoldHomes = (slides) => {
   return (
     <div>
-      <h1>Sold homes</h1>
+      <div className='w-full h-full'>
+        {slides.url}
+        </div>
     </div>
   )
 }
 
-export default soldHomes
+export default SoldHomes

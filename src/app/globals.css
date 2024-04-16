@@ -174,3 +174,15 @@ transition: all .3s ease-in-out;
 a{
   background: none;
 }
+.sold_sign{
+  position:relative;
+  text-align: center;
+  background-color: red;
+  margin-top:2rem;
+
+  padding:10px;
+  width:90px;
+  height:90px;
+  border-radius: 100%;
+  
+}
