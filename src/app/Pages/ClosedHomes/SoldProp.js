@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const SoldProp = ({slide}) => {
   return (
     <div className='w-full h-full '>
@@ -18,7 +18,10 @@ const SoldProp = ({slide}) => {
 
       </div>
         <div className="soldImages-container ">
-        <img src={`${slide}`} 
+        <Image src={`${slide}`} 
+        width={180}
+        height={180}
+        alt="Sold Home Image"
         className='closed_homes w-72 sm:mt-3 mx-auto rounded-lg sm:w-72 md:w-96 '
         />
         </div>
