@@ -1,9 +1,7 @@
 import React from 'react'
 import MyNavbar from '@/app/components/Navigation/MyNavbar'
-import prop4kitchenImg from '@/app/Home_images/forsalepropertyfour/prop-4kitchen.png';
 import Hero from './HeroBanner/Hero';
 import FeaturedProperties from './Featured-props/FeaturedProperties';
-import BuyNow from '../BuyNow/BuyNow';
 import ClosedHomes from '../ClosedHomes/ClosedHomes'
 function HomePage() {
   return (
