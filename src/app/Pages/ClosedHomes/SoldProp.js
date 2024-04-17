@@ -9,7 +9,7 @@ const SoldProp = ({slide}) => {
       md:flex 
       
       "
-      slide={...slide}
+  
       >  <div className="sold_container w-full text-center h-2/5 ">
                 <div className=" sold_sign  w-16 h-16 relative left-40 top-40   ">
                 <p className=' relative top-6  mx-auto text-sm font-bold '>Sold!!</p>
