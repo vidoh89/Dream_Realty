@@ -22,11 +22,11 @@ const ImageSlider = ({ slides }) => {
  }
   return (
     // Image slide container.Conatains styles for image slider.
-    <div className="max-w-[1800px] h-[780px] w-full mx-auto py-16 px-0 sm:px-4 relative group">
+    <div className="max-w-[1800px] h-[780px] w-full mx-auto py-16  px-0 sm:px-4 relative group">
       {/* container for image settings.Controls image slides size and style */}
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className=" w-full h-full rounded-2xl bg-center bg-cover  ease-in-out duration-500"
+        className=" w-[280px] h-[280px] mt-[5rem] mx-auto sm:w-full sm:h-full rounded-2xl bg-center bg-cover sm:bg-center sm:bg-cover  ease-in-out duration-500"
       ></div>
       {/* div for left arrow style */}
       <div className=" left_arrow hidden sm:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5">
