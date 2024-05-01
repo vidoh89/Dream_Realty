@@ -1,6 +1,7 @@
-
+"use client";
 import SoldProp from "./SoldProp";
 const ClosedHomes = () =>{
+    // Contains data for closed homes/properties
     const slides=[
         {
             id:1,
@@ -23,12 +24,31 @@ const ClosedHomes = () =>{
     ];
       
     return(
-        <div className="mt-5 mx-auto sm:text-2xl">
+        <div className="mt-1 mx-auto sm:text-2xl relative top-[-4vh] sm:top-0 ">
+            {/* Sold logo image, styling located in global.css file */}
+            <div
+            className=" sold_sign  w-10 h-10 relative top-[7.4rem] left-[10rem] mx-auto z-50
+                        sm:z-50 sm:top-[7.4rem]
+                         md:top-[7.5rem] md:left-[10rem] 
+                         lg:top-[4/4.5rem]
+              "
+          >
+            
+            <p className=" relative top-[.8rem] left-1  mx-auto text-[.5rem] font-bold
+                           sm:top-[.4rem]
+                           lg:top-[4/4.5rem] lg:font-extrabold
+                           ">
+              Sold!!
+            </p>
+          </div>
         <div className="closedProperty-container w-full h-56 text-center">
+            {/* Closed property text underline */}
         <span className="slider_header">
-        <h1 className="mt-[10rem] sm:mt-0 text-2xl">Closed Properties</h1>
+            {/* Closed property heading */}
+        <h1 className="mt-[5rem]  text-2xl">Closed Properties</h1>
         </span>
-        <div className="w-full h-full block  sm:mt-4 sm:mb-4  lg:flex lg:justify-center">
+        {/* Maps property data and passes data to SoldProp component for logic implementaiton */}
+        <div className="w-full h-full block relative top-[1vh] sm:top-[220vh]  lg:flex lg:justify-center">
             
             {slides.map((slide,index)=>(
                 <SoldProp key={index} slide={slide.url}/>

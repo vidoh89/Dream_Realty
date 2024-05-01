@@ -5,15 +5,18 @@ import FeaturedProperties from './Featured-props/FeaturedProperties';
 import ClosedHomes from '../ClosedHomes/ClosedHomes'
 function HomePage() {
   return (
+    // Returns the Navbar, Hero section.
     <div className='w-full'>
       <MyNavbar/>
       <div><Hero/></div>
       <main className=''>
+        {/* Div that divides each section,styling located in global.css file */}
         <div className='divider_div relative'></div>
-            <div className="slideImg-container">
+            <div className="slideImg-container relative z-50">
           <FeaturedProperties/>  
           </div>
-        <div className="divider_div relative" style={{marginTop:"5rem"}}/>
+        <div className="divider_div relative z-50 md:top-[4.4rem]" style={{marginTop:"5rem"}}/>
+        {/* Closed property container  */}
         <div>
         <ClosedHomes/>
         </div>

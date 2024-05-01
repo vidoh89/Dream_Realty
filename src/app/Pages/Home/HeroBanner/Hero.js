@@ -6,13 +6,14 @@ function Hero() {
   return (
     // Main container for hero section
     // Controls:herobanner image,Heading and pargagraph section.
-    <div className="hero-container">
+    <div className="hero-container ">
         <Image
-          className="hero_pic  object-cover top-0 left-0"
+          className="hero_pic  object-cover top-0 left-0 "
           src="/prop-4kitchen.png"
           alt="Picture of RealEstate property"
           width={1080}
           height={1080}
+        
         />
         {/* Add image overlay ,styling located in global.css file*/}
         <div className="overLay w-full  "/>
@@ -22,10 +23,10 @@ function Hero() {
               <span className="f-design bg-transparent/0 ">Invest</span> In Your Happiness
             
             </h1>
-            {/* Herobanner paragraph section */}
+            {/* Herobanner paragraph section styling located in global.css file. */}
             <section className="para_section   bg-transparent/0 w-80 relative  sm:bottom-24">
-            <p className=" bg-transparent/0 text-pretty leading-[4vh] lg:leading-[4.1vh]  relative bottom-[15vh] sm:bottom-0 lg:bottom-0 sm:text-l md:text-1xl lg:text-1xl ">
-              Here at Dream Realty,we understand the significance of finding a
+            <p className=" sans-font bg-transparent/0 text-pretty leading-[4vh] lg:leading-[4.1vh]  relative bottom-[15vh] sm:bottom-0 lg:bottom-0 text-2xl sm:text-l md:text-1xl lg:text-1xl ">
+              Here at Dream Realty, we understand the significance of finding a
               property that perfectly complements your unique needs and
               aspirations.<br/> In the vibrant state of Georgia, we offer a diverse
               selection of beautiful homes, each waiting to be the backdrop for

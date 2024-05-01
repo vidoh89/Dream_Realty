@@ -2,6 +2,8 @@ import React from "react";
 import ImageSlider from "./ImageSlider";
 
 function FeaturedProperties() {
+  // Array of Objects that contain images for featured propertey section.
+  // Image styling located in ImageSlider.js file.
   const slides = [
     {
       url: "/featured_prop_data/prop-2frontyard.jpeg",
@@ -26,8 +28,9 @@ function FeaturedProperties() {
   ];
   
   return (
-    <div className="max-w-[1400px] h-[780px] w-full m-auto py-16 px-0 sm:p-4 relative">
-      <h1 className="slider_header sm:mt-0 mx-auto text-2xl text-center mt-[5rem]">Featured Properties</h1>
+    <div className="max-w-[1400px] h-[780px] w-full mx-auto py-16 px-0 sm:p-4 relative">
+      {/* Featured property heading,styling located in global.css file. */}
+      <h1 className="slider_header  mx-auto text-2xl text-center mt-[.1vh] sm:mt-[4vh]">Featured Properties</h1>
       <div className="">
         <ImageSlider slides={slides}
         
