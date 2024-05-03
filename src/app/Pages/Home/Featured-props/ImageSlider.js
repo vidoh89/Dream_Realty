@@ -32,8 +32,10 @@ const ImageSlider = ({ slides }) => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className=" 
         rounded-2xl bg-center bg-cover
-        w-[98vw] h-[58vh] mt-[3vh]  mx-auto ease-in-out duration-500
-        sm:h-[60] md:h-[70vh]  sm:w-full   sm:bg-center sm:bg-cover 
+        w-[98vw] h-[58vh]  mt-[3vh]  mx-auto ease-in-out duration-500
+        sm:h-[60] md:h-[50vh]  sm:w-full   sm:bg-center sm:bg-cover
+         
+         
         ">
       </div>
       {/* div for left arrow style */}

@@ -30,7 +30,7 @@ const ClosedHomes = () =>{
             className=" sold_sign  
                         w-10 h-10 relative top-[7.4rem] left-[153px] mx-auto z-50
                         sm:z-50 sm:top-[7.4rem] 
-                         md:top-[7.5rem] md:left-[10rem] 
+                         md:top-[12.2rem] md:left-[10rem] 
                          lg:top-[4/4.5rem]
               "
           >
@@ -48,7 +48,10 @@ const ClosedHomes = () =>{
             {/* Closed property text underline */}
         <span className="slider_header">
             {/* Closed property heading */}
-        <h1 className="mt-[5rem]  text-2xl">Closed Properties</h1>
+        <h1 className=
+        "mt-[5rem]  text-2xl sm:mt-[10rem]"
+        
+        >Closed Properties</h1>
         </span>
         {/* Maps property data and passes data to SoldProp component for logic implementaiton */}
         <div className="w-full h-full block relative top-[1vh] sm:top-[220vh]  lg:flex lg:justify-center">

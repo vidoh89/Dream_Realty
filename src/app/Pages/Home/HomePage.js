@@ -18,7 +18,7 @@ function HomePage() {
         <div className="
         divider_div relative z-50
         top-[4.4vh] 
-        md:top-[4.4rem]"/>
+        md:top-[9.4rem]"/>
         {/* Closed property container  */}
         <div>
         <ClosedHomes/>
