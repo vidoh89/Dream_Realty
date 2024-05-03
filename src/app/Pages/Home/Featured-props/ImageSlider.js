@@ -22,12 +22,20 @@ const ImageSlider = ({ slides }) => {
  }
   return (
     // Image slide container.Conatains styles for image slider.
-    <div className="max-w-[1800px] h-[780px] w-full mx-auto pt-12  px-0 sm:px-4 relative group">
+    <div className="
+    max-w-[1800px] h-[580px]  relative group
+    w-full mx-auto pt-12  px-1 
+    sm:px-4 
+    ">
       {/* container for image settings.Controls image slides size and style */}
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className=" w-[90vw] h-[60vh] sm:h-[60] md:h-[70vh] mt-[3vh]  mx-auto sm:w-full  rounded-2xl bg-center bg-cover sm:bg-center sm:bg-cover  ease-in-out duration-500"
-      ></div>
+        className=" 
+        rounded-2xl bg-center bg-cover
+        w-[98vw] h-[58vh] mt-[3vh]  mx-auto ease-in-out duration-500
+        sm:h-[60] md:h-[70vh]  sm:w-full   sm:bg-center sm:bg-cover 
+        ">
+      </div>
       {/* div for left arrow style */}
       <div className=" left_arrow hidden sm:group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5">
         <FaArrowAltCircleLeft size={30} className="left_arrow" onClick={prevSlide}/>

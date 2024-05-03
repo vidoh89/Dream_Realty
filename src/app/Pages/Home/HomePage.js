@@ -15,7 +15,10 @@ function HomePage() {
             <div className="slideImg-container relative z-50">
           <FeaturedProperties/>  
           </div>
-        <div className="divider_div relative z-50 md:top-[4.4rem]" style={{marginTop:"5rem"}}/>
+        <div className="
+        divider_div relative z-50
+        top-[4.4vh] 
+        md:top-[4.4rem]"/>
         {/* Closed property container  */}
         <div>
         <ClosedHomes/>

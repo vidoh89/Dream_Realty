@@ -24,18 +24,21 @@ const ClosedHomes = () =>{
     ];
       
     return(
-        <div className="mt-1 mx-auto sm:text-2xl relative top-[-4vh] sm:top-0 ">
+        <div className="mt-1 mx-auto  sm:text-2xl relative top-[-4vh] sm:top-0 ">
             {/* Sold logo image, styling located in global.css file */}
             <div
-            className=" sold_sign  w-10 h-10 relative top-[7.4rem] left-[10rem] mx-auto z-50
-                        sm:z-50 sm:top-[7.4rem]
+            className=" sold_sign  
+                        w-10 h-10 relative top-[7.4rem] left-[153px] mx-auto z-50
+                        sm:z-50 sm:top-[7.4rem] 
                          md:top-[7.5rem] md:left-[10rem] 
                          lg:top-[4/4.5rem]
               "
           >
             
-            <p className=" relative top-[.8rem] left-1  mx-auto text-[.5rem] font-bold
-                           sm:top-[.4rem]
+            <p className=" 
+                           relative 
+                           top-[.8rem] left-1  mx-auto text-[.5rem] font-bold
+                           sm:top-[.3rem]
                            lg:top-[4/4.5rem] lg:font-extrabold
                            ">
               Sold!!
