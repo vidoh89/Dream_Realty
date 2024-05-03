@@ -19,13 +19,24 @@ function Hero() {
         <div className="overLay w-full  "/>
           <div className="hero_header  max-w-[1110px]:   mx-auto  text-white  absolute top-0  w-full  h-full flex flex-col justify-center text-center bg-transparent/10 pb-5">
             {/* Herobanner heading */}
-            <h1 className="text-2xl sm:text-2xl md:text-3xl text-center bottom-[16vh] sm:bottom-[10vh] lg:bottom-[9vh] bg-transparent/0 relative  sm:relative ">
+            <h1 className="
+            text-xl text-center bg-transparent/0 relative  bottom-[16vh]
+            sm:text-2xl sm:bottom-[10vh] sm:relative
+            md:text-3xl   
+            lg:bottom-[9vh]   
+            ">
               <span className="f-design bg-transparent/0 ">Invest</span> In Your Happiness
             
             </h1>
             {/* Herobanner paragraph section styling located in global.css file. */}
-            <section className="para_section   bg-transparent/0 w-80 relative  sm:bottom-24">
-            <p className=" sans-font bg-transparent/0 text-pretty leading-[4vh] lg:leading-[4.1vh]  relative bottom-[15vh] sm:bottom-0 lg:bottom-0 text-2xl sm:text-l md:text-1xl lg:text-1xl ">
+            <section className="para_section   bg-transparent/0 w-80 relative 
+             sm:bottom-24">
+            <p className=" sans-font bg-transparent/0 text-pretty leading-[4vh] relative 
+            bottom-[15vh] text-xl
+            sm:bottom-0 sm:text-xl
+            md:text-1xl
+            lg:text-1xl lg:leading-[4.1vh]  lg:bottom-0 
+             ">
               Here at Dream Realty, we understand the significance of finding a
               property that perfectly complements your unique needs and
               aspirations.<br/> In the vibrant state of Georgia, we offer a diverse
